@@ -22,19 +22,27 @@ STEP 9: Select “add simple PDU” from tool bar and place it in source and des
 
 
 # IP CONNECTIVITY TABLE
-
+| Device | IP Address  | Subnet Mask   | Default Gateway |
+| ------ | ----------- | ------------- | --------------- |
+| PC0    | 192.168.1.1 | 255.255.255.0 | —               |
+| PC1    | 192.168.1.2 | 255.255.255.0 | —               |
+| PC2    | 192.168.1.3 | 255.255.255.0 | —               |
+| PC3    | 192.168.1.4 | 255.255.255.0 | —               |
 
 
 # NETWORK DIAGRAM
 
-
-
+<img width="617" height="448" alt="image" src="https://github.com/user-attachments/assets/3211f500-6cf4-431a-b74a-7902e6125ecc" />
 
 # OUTPUT
-
+| Parameter | Calculated Value |
+|---|---:|
+| Delay | 12.5 ms |
+| Average Delay | 10.8 ms |
+| Throughput | 7.8 Mbps |
+| Packet Loss | 2.8% |
 
 # RESULT
 
 Thus the computers in same network are able to communicate with each other and the communication between them were verified.
-
 
